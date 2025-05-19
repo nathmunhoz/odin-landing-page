@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -12,11 +12,10 @@ body {
 .main{
     display: flex;
     background-color: #1F2937;
-    height: 300px;
     color: #F9FAF8;
     flex-direction: column;
     padding: 20px;
-    gap: 40px;
+    gap: 80px;
 }
 
 .one
@@ -28,8 +27,32 @@ h1{
 
 .one{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.one, .two {
+    flex: 1; /* makes them share space equally */
+  }
+  
+.two {
+    width: 400px;
+    height: 200px;
+    background-color: #6b7280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.subheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px; /* espaço entre o texto e a imagem */
+    padding: 60px 120px;
 }
 
 .quote{
