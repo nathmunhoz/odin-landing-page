@@ -6,12 +6,104 @@
 
 .container-1{
     display: flex;
+    flex-direction: column;
     background-color: #1F2937;
-    padding: 40px;
+    padding: 10px 150px;
+    height: 530px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header{
     display: flex;
+    flex-direction: row;
+    gap: 59px;
+}
+
+.header h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link, .p1 p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    padding-left: 280px;
+}
+
+.subheader{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+}
+
+.p1{
+    padding-right: 30px;
+}
+
+.p2{
+    display: flex;
+    padding: 100px 80px;
+    background-color: grey;
+    width: 850px;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+.p1 h1{
+    font-size: 48px;
+    font-weight: 900px;
+    color: #F9FAF8;
+}
+
+.button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.container-2{
+    display: flex;
     flex-direction: column;
+    padding: 40px 150px;
+    height: 450px;
+}
+
+.container-2 h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+img{
+    height: 150px;
+    width: 180px;
+    border-radius: 8px;
+}
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 10px 150px;
+    height: 450px;
 }
