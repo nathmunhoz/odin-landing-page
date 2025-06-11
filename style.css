@@ -1,128 +1,24 @@
-* {
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container-1{
+    display: flex;
+    background-color: #1F2937;
+    padding: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.main{
-    display: flex;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    flex-direction: column;
-    padding: 20px;
-    gap: 80px;
-    height: 530px;
-}
-
-.one
-h1{
-    display: flex;
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.one{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    word-wrap: break-word;
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
-.one, .two {
-    flex: 1; /* makes them share space equally */
-  }
-  
-.two {
-    width: 100px;
-    height: 200px;
-    background-color: #6b7280;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-.button{
-    display: flex;
-    flex-direction: row;
-    background-color: #3882f6;
-    color: white;
-    padding: 10px 20px; /* height x width */
-    border-radius: 8px;
-    border: none; /* takes out the shadow */
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    width: 100px;
-}
-  
-
-.subheader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px; /* espaço entre o texto e a imagem */
-    padding: 60px 120px;
-}
-
-.quote{
-    background-color: #E5E7EB;
-    display: flex;
-    height: 300px;
-    align-items: center;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-    font-weight: lighter;
-    justify-content: center;
-    padding: 200px;    
-    flex-direction: column;
-}
-
-name{
-    display: flex;
-    justify-content: right;
-}
-
 .header{
-    display:flex;
-    justify-content: space-around;
-}
-
-.link{
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-}
-
-.middle{
-    display: flex;
-    height: 450px;
     flex-direction: column;
-    padding: 20px;
 }
 
-.items{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.middle
-h2{
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-}
-
-
-.end{
-    display: flex;
-    height: 300px;
-}
